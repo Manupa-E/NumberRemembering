@@ -10,14 +10,14 @@ public class IndexController {
 	@RequestMapping("/index")
 	public ModelAndView index(){
 		
-		ModelAndView model = new ModelAndView("Index");
+		ModelAndView model = new ModelAndView("jsp/Index");
 		
 		return model;
 		
 	}
 	@RequestMapping(value="/login",method = RequestMethod.GET)
 	public ModelAndView getLoginForm(){
-		ModelAndView model = new ModelAndView("Login");
+		ModelAndView model = new ModelAndView("jsp/Login");
 		return model;
 		
 	}
