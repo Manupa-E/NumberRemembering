@@ -32,7 +32,7 @@
             </div>
                 <!--register button  -->
         <div class="col-xs-1 navbar-right" style="align-self:center">
-          <a href="#small-dialog1" class="btn btn-block btn-sm btn-primary">Register</a>
+         
         </div>
             
           </nav><!-- /navbar -->
