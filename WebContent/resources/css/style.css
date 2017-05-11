@@ -31,7 +31,7 @@ img{max-width:100%;}
 body {
 	font-family: 'Open Sans', sans-serif;
     width: 100%;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     background:#fff;
 	background-size: cover;
 	background: url(../images/banner1.jpg)no-repeat 0px 0px;

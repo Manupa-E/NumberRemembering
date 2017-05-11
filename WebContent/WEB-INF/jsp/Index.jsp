@@ -28,7 +28,7 @@
             
         <!--Sign-in button  -->
         <div class="col-xs-1 navbar-right" style="align-self:center">
-          <a href="#fakelink" class="btn btn-block btn-sm btn-primary">Sign-In</a>
+          <a href="/NumRemembering/login" class="btn btn-block btn-sm btn-primary">Sign-In</a>
         </div>
                 
             

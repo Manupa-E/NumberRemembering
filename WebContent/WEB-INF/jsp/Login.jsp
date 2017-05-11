@@ -1,32 +1,16 @@
-
-<!-- <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Log In</title>
-</head>
-<body>
-<h1>Login</h1>
-</body>
-</html> -->
-
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
-<title>Credit Login / Register Form a Responsive Widget Template :: w3layouts</title>
+<title>RememberMe - Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Credit Login / Register Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 <link href="resources/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
 <link href="resources/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 <link href="resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="resources/css/flat-ui.min.css" rel="stylesheet" />
 <!-- //Custom Theme files -->
 <!-- web font -->
 <link href="//fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
@@ -35,14 +19,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
-<h1>Credit Login / Register Form</h1>
+<!-- Navbar -->
+
+	<div class="row demo-row">
+        <div class="col-xs-12">
+          <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                <span class="sr-only">Toggle navigation</span>
+              </button>
+              <a class="navbar-brand" href="#">RememberMe</a>
+            </div>
+                <!--register button  -->
+        <div class="col-xs-1 navbar-right" style="align-self:center">
+          <a href="#small-dialog1" class="btn btn-block btn-sm btn-primary">Register</a>
+        </div>
+            
+          </nav><!-- /navbar -->
+        </div>
+     </div> <!-- /row -->
+      
+<!-- End of navbar -->
+<br><br><br>
 <div class="main-agileits">
 <!--form-stars-here-->
 		<div class="form-w3-agile">
-			<h2>Credit login form</h2>
+			<h2 style="text-transform: uppercase">Login</h2>
 			<form action="#" method="post">
 				<div class="form-sub-w3">
-					<input type="text" name="Username" placeholder="Customer number or username " required="" />
+					<input type="text" name="Username" placeholder="Username " required="" />
 				<div class="icon-w3">
 					<i class="fa fa-user" aria-hidden="true"></i>
 				</div>
@@ -53,7 +58,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<i class="fa fa-unlock-alt" aria-hidden="true"></i>
 				</div>
 				</div>
-				<p class="p-bottom-w3ls">Are you new to eBanking?<a class="w3_play_icon1" href="#small-dialog1">  Register here</a></p>
+				<p class="p-bottom-w3ls">Are you new to RememberMe?<a class="w3_play_icon1" href="#small-dialog1">  Register here</a></p>
 				
 				<div class="submit-w3l">
 					<input type="submit" value="Login">
@@ -92,23 +97,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 													</div>
 												</div>
 											</div>
-											<div class="login-check">
+											<!-- <div class="login-check">
 								 			 <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><p>I Accept Terms & Conditions</p></label>
-											</div>
+											</div> -->
 										<div class="submit-w3l">
 											<input type="submit" value="Register">
 										</div>
 										</form>
 					</div>	
 				</div>
-<!-- copyright -->
-	<div class="copyright w3-agile">
-		<p> © 2017 Credit Login / Register Form . All rights reserved | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a></p>
-	</div>
-	<!-- //copyright --> 
+
 	<script type="text/javascript" src="resources/js/jquery-2.1.4.min.js"></script>
 	<!-- pop-up-box -->  
 		<script src="resources/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="resources/js/flat-ui.min.js"></script>
 	<!--//pop-up-box -->
 	<script>
 		$(document).ready(function() {
