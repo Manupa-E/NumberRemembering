@@ -71,7 +71,7 @@
 					<div class="contact-form1">
 										<div class="contact-w3-agileits">
 										<h3>Register Form</h3>
-											<form action="register" method="post" commandName="user">
+											<form action="register.do" method="post" commandName="user">
 												<!-- <div class="form-sub-w3ls">
 													<input placeholder="User Name"  type="text" required="">
 													<div class="icon-agile">

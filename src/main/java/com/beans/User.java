@@ -14,14 +14,15 @@ public class User {
 	private String email;
 	@Column
 	private String password;
-	@GeneratedValue(strategy=GenerationType.AUTO) //for autonumber
-	private int id;
+	/*@GeneratedValue(strategy=GenerationType.AUTO) //for autonumber
+*/	
+	
 	public User(){}
-	public User(String email, String password, int id) {
+	public User(String email, String password) {
 		super();
 		this.email = email;
 		this.password = password;
-		this.id = id;
+		
 	}
 	
 	
@@ -38,11 +39,6 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 
 }
