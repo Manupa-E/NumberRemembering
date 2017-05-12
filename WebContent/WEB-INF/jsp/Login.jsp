@@ -45,7 +45,7 @@
 <!--form-stars-here-->
 		<div class="form-w3-agile">
 			<h2 style="text-transform: uppercase">Login</h2>
-			<form action="#" method="post">
+			<form action="#" method="post" >
 				<div class="form-sub-w3">
 					<input type="text" name="Username" placeholder="Username " required="" />
 				<div class="icon-w3">
@@ -71,15 +71,15 @@
 					<div class="contact-form1">
 										<div class="contact-w3-agileits">
 										<h3>Register Form</h3>
-											<form action="#" method="post">
-												<div class="form-sub-w3ls">
+											<form action="register" method="post" commandName="user">
+												<!-- <div class="form-sub-w3ls">
 													<input placeholder="User Name"  type="text" required="">
 													<div class="icon-agile">
 														<i class="fa fa-user" aria-hidden="true"></i>
 													</div>
-												</div>
+												</div> -->
 												<div class="form-sub-w3ls">
-													<input placeholder="Email" class="mail" type="email" required="">
+													<input placeholder="Email/Username" class="mail" type="email" required="">
 													<div class="icon-agile">
 														<i class="fa fa-envelope-o" aria-hidden="true"></i>
 													</div>
